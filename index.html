@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #AB88FF;
+      font-family: 'Muli', sans-serif;
+      margin: 0px;
+    }
+    .header {
+      align-items: center;
+      background-color:  #AB88FF;
+      height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .header__img {
+      width: 200px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .header__menu {
+      margin-right: 30px;
+    }
+    .header__menu ul {
+      display: none;
+      list-style: none;
+      padding: 0px;
+      position: absolute;
+      width: 100px;
+      text-align: right;
+      margin: 0px 0px 0px -14px;
+    }
+    .header__menu:hover ul, ul:hover {
+      display: block;
+    }
+    .header__menu li {
+      margin: 10px 0px;
+    }
+    .header__menu li a {
+      color: white;
+      text-decoration: none;
+    }
+    .header__menu li a:hover {
+      text-decoration: underline;
+    }
+    .header__menu--profile {
+      align-items: center;
+      display: flex;
+      margin-right: 8px;
+    }
+    .header__menu--profile img {
+      margin-right: 8px;
+      width: 40px;
+      height: 40px;
+    }
+    .header__menu--profile p {
+      color: white;
+      margin: 0px;
+    }
+  </style>
+  <script>
+    // Aquí va el código JavaScript
+  </script>
+  <title>Frank</title>
+</head>
+<body>
+  <!-- Bloque: header - Elemento: button - Modifier: red/yellow -->
+  <header class="header">
+    <img class="header__img" src="./logo-platzi-video-BW2.png">
+    <div class="header__menu">
+      <div class="header__menu--profile">
+        <img src="./user-icon.png" alt="User">
+        <p>Perfil</p>
+      </div>
+      <ul>
+        <li><a href="/">Cuenta</a></li>
+        <li><a href="/">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+  </header>
+</body>
+</html>

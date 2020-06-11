@@ -31,7 +31,7 @@ body {
   border-radius: 40px;
   color: white;
   padding: 60px 68px 40px;
-  min-height: 700px;
+  min-height: 450px;
   width: 300px;
 }
 .login__container--form {
@@ -69,6 +69,8 @@ body {
 }
 .logging__container--register {
   font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .logging__container--register a {
   color: white;
@@ -131,4 +133,16 @@ body {
 }
 .footer > a:hover {
   text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }

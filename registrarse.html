@@ -8,7 +8,7 @@
   <!-- Styles -->
   <link href="styles.css" rel="stylesheet">
   <!-- Title -->
-  <title>Inicio de sesión</title>
+  <title>Registro</title>
 </head>
 <body>
   <!-- Método BEM = Bloque: header - Elemento: button - Modifier: red/yellow -->
@@ -17,23 +17,14 @@
   </header>
   <section class="login">
     <section class="login__container">
-      <h2>Inicia sesión</h2>
+      <h2>Regístrate</h2>
       <form class="login__container--form">
+        <input class="input" type="text" placeholder="Nombre">
         <input class="input" type="text" placeholder="Correo">
         <input class="input" type="password" placeholder="Contraseña">
-        <button class="button">Iniciar sesión</button>
-        <div class="login__container--remember-me">
-          <label>
-            <input type="checkbox" id="cbox1" value="checkbox">Recuérdame
-          </label>
-          <a href="/">Olvidé mi contraseña</a>
-        </div>
+        <button class="button">Registrarme</button>
       </form>
-      <section class="login__container--social-media">
-        <div><img src="./assets/google-icon.png" alt="Google login">Inicia sesión con Google</div>
-        <div><img src="./assets/twitter-icon.png" alt="Twitter login">Inicia sesión con Google</div>
-      </section>
-      <p class="logging__container--register">¿No tienes ninguna cuenta? <a href="./registrarse.html">Regístrate</a></p>
+      <p class="logging__container--register"><a href="./iniciar-sesion.html">Iniciar sesión</a></p>
     </section>
   </section>
   <footer class="footer">

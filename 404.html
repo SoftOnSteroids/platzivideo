@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/styles-common.css">
+    <link rel="stylesheet" href="./styles/styles-session.css">
+    <style>
+      .text {
+        color: white;
+        margin: 5px 0px;
+      }
+      .title_404 {
+        font-size: 80px;
+      }
+      .subtitle_404 {
+        font-size: 15px;
+      }
+      .animated {
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pulse {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.1);}
+        100% {transform: scale(1);}
+      }
+      .pulse {
+        animation-name: pulse;
+        animation-duration: 1s;
+      }
+    </style>
+    <!-- Title -->
+    <title>Página no encontrada</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__img"
+        src="./assets/logo-platzi-video-BW2.png"
+        alt="Platzi Video"
+      />
+    </header>
+
+    <section class="main login">
+      <p class="text title_404 animated pulse">404</p>
+      <p class="text subtitle_404">Página no encontrada</h2>
+    </section>
+
+    <footer class="footer">
+      <a href="/">Terminos de uso</a>
+      <a href="/">Declaración de privacidad</a>
+      <a href="/">Centro de ayuda</a>
+    </footer>
+  </body>
+</html>

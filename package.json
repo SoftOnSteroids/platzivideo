@@ -1,0 +1,27 @@
+{
+  "name": "platzivideo",
+  "version": "1.0.0",
+  "description": "Proyecto de la escuela de javascript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftOnSteroids/platzivideo.git"
+  },
+  "keywords": [
+    "video",
+    "javascript"
+  ],
+  "author": "Franco Coloccini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftOnSteroids/platzivideo/issues"
+  },
+  "homepage": "https://github.com/SoftOnSteroids/platzivideo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

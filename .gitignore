@@ -4,3 +4,4 @@ node_modules
 package-lock.json
 styles/*.css.map
 styles/*.css
+assets/bbb_sunflower_1080p_30fps_normal.mp4
